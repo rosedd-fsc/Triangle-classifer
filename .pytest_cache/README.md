@@ -17,12 +17,19 @@ An equilateral triangle can never be a right triangle because all sides have to 
 Class: |   Example: |  Expected:
 
 All sides equal |  (5, 5, 5) |  Equilateral
+
 Exactly two sides equal | (5, 5, 8) | Isosceles 
+
 All sides different | (4, 5, 6) | Scalene |
+
 A side is zero or negative | (0, 5, 5), (-1, 2, 2) | Invalid 
+
 Triangle inequality fails | (1, 2, 10) | Invalid 
+
 Right triangle, integer sides | (3, 4, 5) | Right Scalene 
+
 Right triangle, decimal sides | (5, 5, 5·√2) | Right Isosceles 
+
 
 Boundaries:
 - Side exactly 0 is "invalid" versus a small positive side is "valid".
