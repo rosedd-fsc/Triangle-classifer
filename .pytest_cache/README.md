@@ -42,11 +42,17 @@ Boundaries:
 Test: | Copilot-suggested?: | Kept / edited / rejected?: | Why?
 
 test_equilateral | Yes | Kept | Co-pilot kept the assert statement and followed my expectations
+
 test_isosceles | Yes | Kept | Co-pilot kept the assert statement and followed my expectations
+
 test_scalene | Yes | Kept | Co-pilot kept the assert statement and followed my expectations
+
 test_invalid_zero_side  | Yes | Kept | Co-pilot kept the assert statement and followed my expectations
+
 test_degenerate_boundary | Yes | Kept | Co-pilot kept the assert statement and followed my expectations
+
 test_right_triangle_non_integer | Yes | Edited | Co-pilot forgot to assert with math.isclose() method
+
 
 # Acceptance Critera 
 
